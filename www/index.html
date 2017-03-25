@@ -12,23 +12,34 @@
 		
 		<!-- My app main page -->
 		<div data-role="page" id="pageone">
-		  <div data-role="header">
-			<h1>Hello World!</h1>
-		  </div>
-		  <div data-role="main" class="ui-content">
-			
-			<p>The graphical user interface (GUI), is a type of user interface that allows users to interact with electronic
-devices through graphical icons and visual indicators such as secondary notation, instead of text-based user
-interfaces, typed command labels or text navigation. GUIs were introduced in reaction to the perceived steep
-learning curve of command-line interfaces (CLIs), which require commands to be typed on a computer
-keyboard.</p>
+  <div data-role="header">
+    <h1>Wizytówka</h1>
+  </div>
 
-			<a href="#details" class="ui-btn ui-btn-inline ui-corner-all ui-shadow" onclick="deviceInfo()">Let me introduce myself!</a>
-		  </div>
-		  <div data-role="footer" data-position="fixed">
-			<h1>(c) Ewelina Kot</h1>
-		  </div> 
-		</div> 
+  <div data-role="main" class="ui-content">
+    <p>Ewelina Kot ewelinakot@gmail.com Informatyka stosowana</p>
+    <a href="#pagetwo">Przejdz na strone druga</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Footer Text</h1>
+  </div>
+</div> 
+
+<div data-role="page" id="pagetwo">
+  <div data-role="header">
+    <h1>Zainteresowania</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p>Uwielbiam czytac ksiazki. Caly moj czas poswiecam na wychowyanie dzieci oraz na nauke.  </p>
+    <a href="#pageone">Przejdz na strone pierwsza</a>
+  </div>
+
+  <div data-role="footer">
+    <h1>Footer Text</h1>
+  </div>
+</div> 
 		
 		<!-- Mobile device details page -->
 		<div data-role="page" id="details" data-dialog="true">
@@ -37,6 +48,8 @@ keyboard.</p>
 			</div>
 			<div role="main" class="ui-content">
 				<p id="deviceDetails">Place for device details ...</p>
+			
+
 			</div>
 		</div>		
 		
