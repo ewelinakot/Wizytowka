@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-		id          = "myfirstapp"
+		id          = "GUI" 
         version     = "1.0.0" >
 
-    <name>App with jQM</name>
-    <description>My first mobile app with jQuery Mobile user interface</description>
-    <author href="http://mypersonalwebsite.com" email="johnbrown@gmail.com">
-		John Brown
+    <name>GUI</name>
+    <description>The graphical user interface (GUI), is a type of user interface that allows users to interact with electronic
+devices through graphical icons and visual indicators such as secondary notation, instead of text-based user
+interfaces, typed command labels or text navigation. GUIs were introduced in reaction to the perceived steep
+learning curve of command-line interfaces (CLIs), which require commands to be typed on a computer
+keyboard.</description>
+
+    <author href="http://ewelinakot.com" email="ewelinakot@gmail.com">
+		Ewelina Kot
 	</author>
 	<platform name="android" />
 	
